@@ -17,7 +17,7 @@ atletas.head()
 #Creamos el histograma de la variable Tiempo
 plt.figure(1)
 plt.hist(atletas['Tiempo'], 15, color="yellow", ec="black")
-plt.title("Histograma Tiempo")
+plt.title("Histograma Tiempo de Corredores")
 
 plt.savefig("Histograma.jpg")
 #Para conocer la frecuencia de una variable que es categórica
